@@ -1,46 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-nav{
+nav {
     background-color: #326080;
     padding: 15px;
     margin-bottom: 10px;
 }
-nav a{
+
+nav a {
     padding: 5px;
     color: #fff;
     display: block;
     font-weight: bold;
 }
 
-body{
+body {
     background-color: #80a9c5;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
 }
 
-main{
+main {
     max-width: 840px;
     margin: 1rem;
 }
 
-main img{
+main img {
     width: 200px;
     height: auto;
     margin: 10px 0 10px 0;
-    border: 1px solid #a7a4a483;
+    border: 1px solid #a7a4a400;
     padding: 10px;
-    box-shadow: 0 0 30px #333;
+    box-shadow: 0 0 10px #333;
 }
 
-h1{
+h1 {
     color: #fff;
 }
 
-aside{
+h2 {
+    margin: 0 0 10px 0;
+}
+
+main h2 {
+    margin: 10px 0 10px 0;
+}
+
+main button {
+    padding: 10px;
+    background-color: #326080;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+
+aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid #326080;
@@ -50,16 +70,24 @@ aside{
     text-align: center;
 }
 
-aside img{
+aside img {
     width: 200px;
     height: auto;
 }
 
-p{
+p {
     padding: 0;
 }
 
-footer{
+.presentation-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+footer {
     margin-top: 20px;
     border-top: 1px solid #fff;
     text-align: center;
