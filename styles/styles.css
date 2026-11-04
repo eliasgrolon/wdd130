@@ -49,15 +49,25 @@ main h2 {
     margin: 10px 0 10px 0;
 }
 
-main button {
+.milestones-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.milestones-list a {
+    display: inline-block;
     padding: 10px;
     background-color: #326080;
     border-radius: 10px;
-    border: none;
     color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
     border-bottom: 1px solid #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
 }
 
 aside {
