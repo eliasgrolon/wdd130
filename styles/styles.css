@@ -93,8 +93,7 @@ p {
     display: flex;
     align-items: center;
     gap: 16px;
-    font-weight: bolder;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 footer {
