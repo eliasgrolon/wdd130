@@ -82,14 +82,15 @@ footer {
     padding: 10px;
 }
 
-/* Class Selectors */
-main .box {
-    /* Property for delete margin: 1rem duplicated in .box applied to Argentina Temple List */
-    margin: 1rem 0;
-}
-
 .box {
     margin: 1rem;
+    border: 1px solid #326080;
+    padding: 10px;
+    background-color: #326080;
+    color: #fff;
+}
+
+.temple-list-box {
     border: 1px solid #326080;
     padding: 10px;
     background-color: #326080;
@@ -97,11 +98,11 @@ main .box {
     list-style: none;
 }
 
-.box li {
+.temple-list-box li {
     margin: 20px 0 20px 0;
 }
 
-.box a {
+.temple-list-box a {
     font-size: 1.3rem;
     font-weight: bold;
     color: #fff;
