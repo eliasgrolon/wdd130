@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #80a9c5;
+    /* background-color: #80a9c5; */
+    background-color: #0c4166;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
 }
@@ -18,7 +19,7 @@ footer {
 }
 
 nav {
-    background-color: #326080;
+    background-color: #2c536e;
     padding: 1rem;
     margin-bottom: 10px;
     display: flex;
@@ -50,6 +51,7 @@ main img {
     border: 1px solid #a7a4a400;
     padding: 10px;
     box-shadow: 0 0 10px #333;
+    background-color: #2c536e;
 }
 
 h1 {
@@ -101,22 +103,21 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid #326080;
+    border: 1px solid #2c536e;
     padding: 10px;
-    background-color: #326080;
+    background-color: #2c536e;
     color: #fff;
 }
 
 .temple-list-box {
-    border: 1px solid #326080;
-    padding: 10px;
-    background-color: #326080;
+    border: 1px solid #2c536e;
+    background-color: #2c536e;
     color: #fff;
     list-style: none;
 }
 
 .temple-list-box li {
-    margin: 20px 0;
+    margin: 20px 0 20px 10px;
 }
 
 .temple-list-box a {
@@ -140,7 +141,7 @@ footer {
 .milestones-list a {
     display: inline-block;
     padding: 10px;
-    background-color: #326080;
+    background-color: #2c536e;
     border-radius: 10px;
     color: #fff;
     font-size: 1.5rem;
