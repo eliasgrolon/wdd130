@@ -4,31 +4,46 @@
     box-sizing: border-box;
 }
 
-nav {
-    background-color: #326080;
-    padding: 15px;
-    margin-bottom: 10px;
-}
-
-nav a {
-    padding: 5px;
-    color: #fff;
-    display: block;
-    font-weight: bold;
-}
-
 body {
     background-color: #80a9c5;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
 }
 
-main {
+header,
+.grid,
+footer {
     max-width: 840px;
-    margin: 1rem;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #326080;
+    padding: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+    /* max-width: 840px; */
+    margin: 1rem 0;
+    grid-column: 2/3;
+
 }
 
 main img {
+    float: right;
     width: 200px;
     height: auto;
     margin: 10px 0 10px 0;
@@ -39,6 +54,9 @@ main img {
 
 h1 {
     color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1rem;
 }
 
 h2 {
@@ -51,13 +69,10 @@ main h2 {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    padding: 1rem;
-    color: #fff;
+    grid-column: 1/2;
+    grid-row: 1/2;
     text-align: center;
-    /* Property already declared in the .box class */
-    /* border: 1px solid #326080; */
-    /* background-color: #326080; */
+    position: relative;
 }
 
 aside img {
@@ -67,8 +82,9 @@ aside img {
 
 aside h2 {
     position: relative;
-    top: 40px;
+    top: 50px;
     left: 0px;
+    font-size: 1rem;
 }
 
 p {
@@ -82,6 +98,7 @@ footer {
     padding: 10px;
 }
 
+/* Class Selectors */
 .box {
     margin: 1rem;
     border: 1px solid #326080;
@@ -99,7 +116,7 @@ footer {
 }
 
 .temple-list-box li {
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
 }
 
 .temple-list-box a {
@@ -109,6 +126,7 @@ footer {
     border: 1px solid #fff;
     border-radius: 10px;
     padding: 5px;
+    text-decoration: none;
 }
 
 .milestones-list {
@@ -132,10 +150,7 @@ footer {
     margin-bottom: 5px;
 }
 
-.presentation-card {
-    display: flex;
+.grid {
+    display: grid;
     align-items: center;
-    gap: 16px;
-    font-size: 1.3rem;
-    flex-direction: row-reverse;
 }
