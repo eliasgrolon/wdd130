@@ -152,6 +152,28 @@ section {
     padding: 0 8px;
 }
 
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 12px;
+}
+
+.history-content p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+.history-content img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+}
+
 .adventure-gallery {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
