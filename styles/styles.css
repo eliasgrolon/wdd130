@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 body {
     /* background-color: #80a9c5; */
@@ -34,6 +34,10 @@ nav a {
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: #3f9de0;
 }
 
 main {
